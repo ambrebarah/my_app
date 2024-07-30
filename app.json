@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "73dc0474-981c-4e2a-a166-2fe13f100246"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.ambruchan.appex"
+    }
+  }
+}
