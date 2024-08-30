@@ -10,7 +10,7 @@ const path = require('path');
 const fs = require('fs');
 
 // Configuration de MongoDB Atlas
-const mongoURI = 'mongodb+srv://ambrebarah:Recrutop123!@cluster0.ol5aoz1.mongodb.net/';
+const mongoURI = '';
 mongoose.connect(mongoURI, {
   ssl: true
 })
@@ -38,8 +38,8 @@ app.use(bodyParser.json({ limit: '10mb' }));
 // Configuration AWS S3
 const s3 = new S3Client({
   credentials: {
-    accessKeyId: 'AKIAQE43JVAQCSZLN6ZB',
-    secretAccessKey: '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'
+    accessKeyId: '',
+    secretAccessKey: ''
   },
   region: 'eu-north-1'
 });
